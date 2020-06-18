@@ -1,0 +1,143 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand{
+  font-family: 'Acme', sans-serif;
+  font-size: 2rem;
+  padding-left: 3rem;
+  margin-left: 2rem;
+}
+.signW{
+  background-color: #4E59AD;
+    color:white !important;
+    padding: 5px 8px 5px 8px;
+    border-radius: 10px;
+
+}
+.navbar-nav{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 0 2rem 0 0;
+}
+.h{
+  transition: .5s;
+}
+.h:hover{
+  color:#4E59AD !important
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(45deg, #ffd89b , #19547b);
+color:white;
+position: relative;
+border-radius: 20px;
+}
+.pop{
+  display: none;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom: 10px;
+}
+.fa-times{
+  position: absolute;
+  left: 19rem;
+}
+.icons{
+  padding: 2px 2px 5px 2px;
+  display: flex;
+  justify-content: space-between;
+  margin:5px 5px 10px 5px;
+}
+.fa-facebook{
+  margin-right: 15px;
+}
+.fa1{
+  text-decoration: none;
+  background-color: #4E59AD;
+  color:#fff;
+  font-family: 'Poppins', sans-serif;
+  padding: 8px;
+  width: 8rem;
+  border-radius: 5px;
+  text-align: center;
+}
+.fa-google{
+  margin-right: 20px;
+}
+.fa2{
+  text-decoration: none;
+  background-color: #DD4B39;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding: 8px;
+  width:8rem;
+  border-radius: 5px;
+  text-align: center;
+}
+.fa1:hover{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.fa2:hover{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.or{
+text-align: center;
+opacity: 0.5;
+margin-bottom: 1rem;
+}
+.bottom{
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.bottom a{
+  text-decoration: none;
+  color:black;
+  opacity: 0.5;
+}
+.end-part{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 20px;
+  color: black !important;
+}
+.end-part a{
+  text-decoration: none;
+  color:#525E64;
+  font-weight:bold;
+  width: 100px;
+border:solid 2px #525E64;
+padding: 2px 5px 2px 15px;
+transition: 0.4s;
+}
+.end-part a:hover{
+  background-color: #525E64;
+  color:#fff;
+}
